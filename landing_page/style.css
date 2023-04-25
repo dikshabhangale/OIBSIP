@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.cursive{
+	font-family: 'Castoro Titling', cursive;
+}
+/*-----------------------------------
+			NAVBAR
+-----------------------------------*/
+
+#nav-btn{
+	width: 90px;
+}
+
+/*-----------------------------------
+			HOME
+-----------------------------------*/
+nav{
+	background: transparent !important;
+
+}
+.home{
+	height: 90vh;
+	position: relative;
+	top: 0;
+	background-image: url('https://odisha.gov.in/sites/default/files/2020-02/UP_Gallery_1485748394.jpg');
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.home::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .8);
+}
+.home-content{
+	position: relative;
+}
+
+.buttons{
+	margin-top: 70px;
+}
+.buttons .btn{
+	width: 150px;
+
+}

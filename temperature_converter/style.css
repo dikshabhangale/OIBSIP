@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+body{
+	height: 100vh !important;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container-fluid{
+	padding: 35px;
+}
+.box{
+   /*width: 50% !important;*/
+   padding: 30px !important;
+   box-shadow: 8px 8px 8px 8px gray;
+}
+/*#Temperature{
+	padding-left: 30vh;
+	padding-right: 30vh;
+}*/
+label{
+	font-size: 20px;
+}
+
+.input{
+	/*width: 300px;*/
+	font-size: 18px;
+}
+.deg, .type, .result{
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+}
+.result{
+font-size: 20px;
+}
